@@ -1,0 +1,76 @@
+[
+  {
+    "model": "carrito_compras.marca",
+    "pk": 1,
+    "fields": {
+      "nombre": "Ray-Ban"
+    }
+  },
+  {
+    "model": "carrito_compras.marca",
+    "pk": 2,
+    "fields": {
+      "nombre": "Oakley"
+    }
+  },
+  {
+    "model": "carrito_compras.articulo",
+    "pk": 1,
+    "fields": {
+      "nombre": "Aviator Classic",
+      "marca": 1,
+      "descripcion": "Lentes de sol estilo aviador, con marco de metal.",
+      "precio": "150.00",
+      "stock": 10
+    }
+  },
+  {
+    "model": "carrito_compras.articulo",
+    "pk": 2,
+    "fields": {
+      "nombre": "Holbrook",
+      "marca": 2,
+      "descripcion": "Estilo atemporal y deportivo.",
+      "precio": "125.50",
+      "stock": 25
+    }
+  },
+  {
+    "model": "carrito_compras.articulo",
+    "pk": 3,
+    "fields": {
+      "nombre": "Wayfarer",
+      "marca": 1,
+      "descripcion": "Dise\u00f1o cl\u00e1sico de la cultura pop.",
+      "precio": "140.00",
+      "stock": 5
+    }
+  },
+  {
+    "model": "carrito_compras.carrito",
+    "pk": 1,
+    "fields": {
+      "fecha_creacion": "2026-03-31T20:00:00Z",
+      "fecha_actualizacion": "2026-03-31T20:00:00Z",
+      "estado": "abierto"
+    }
+  },
+  {
+    "model": "carrito_compras.itemcarrito",
+    "pk": 1,
+    "fields": {
+      "carrito": 1,
+      "articulo": 1,
+      "cantidad": 2
+    }
+  },
+  {
+    "model": "carrito_compras.itemcarrito",
+    "pk": 2,
+    "fields": {
+      "carrito": 1,
+      "articulo": 3,
+      "cantidad": 1
+    }
+  }
+]
